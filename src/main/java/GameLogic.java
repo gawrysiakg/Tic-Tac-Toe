@@ -29,7 +29,7 @@ public void gameDuration()  {
 
            do {
 
-               player.playerValidatedInput(activePlayer);
+               player.playerValidatedInput(activePlayer, board);
                int row=player.row;
                int column=player.column;
                try {
